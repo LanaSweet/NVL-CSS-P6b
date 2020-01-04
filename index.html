@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<title>Practica con Selectores CSS</title>
+<head>
+
+	<style type="text/css">
+	p{ }
+	div > p{
+		     border: 2px solid #fabada;
+	       }
+	 .important{  color: blue;}
+	 p.important + p{color: red;}
+	</style>
+	<body>
+<h1>Este es un heading</h1>
+<div>
+	<p class="important">Este es primer paragrapho hijo del div</p>
+		<p>Este es segundo paragrapho hijo del div</p>
+	<p>Este es tercer paragrapho hijo del div</p>
+	<h4>Un heading hijo del div</h4>
+
+</div>
+<p>Este paragrapho no es un hijo del div y va aparte</p>
+
+</body>
+</html>
